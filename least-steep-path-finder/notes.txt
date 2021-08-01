@@ -1,0 +1,6 @@
+if current < destination
+    pick least biggest but greater than current if available
+    else pick most biggest but smaller than current
+elif current >= destination
+    pick most biggest but smaller than current if available
+    else pick least biggest but greater than current

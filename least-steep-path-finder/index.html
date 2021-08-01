@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pathfinder</title>
+    <style>
+        .grid-ctr {
+            font-size: 0px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h3>Least Steap Path Finder</h3>
+        <label for="">
+            Enter Grid Size: 
+            <input id="gridSizeInput" type="number" min="4" value="8" max="20">
+            <button id="gridGenBtn">Generate</button>
+        </label>
+        <p id="instructions" class="instructions">
+            <em><b>Instructions: </b></em><br />Select a number above and click 'Generate'
+        </p>
+        <div id="gridCtr" class="grid-ctr">
+
+        </div>
+        <br />
+        <div id="results" class="results">
+            <button id="startBtn" style="display: none;">Start</button>
+            <br />
+        </div>
+    </main>
+
+    <script src="pathfinder.js"></script>
+</body>
+</html>
